@@ -31,3 +31,8 @@ const Movie = mongoose.model('Movie', movieSchema)
 //         console.log("IT WORKED!")
 //         console.log(data);
 //     })
+
+
+//Query
+// Movie.find({ rating: 'PG-13' }).then(data => console.log(data))
+// Movie.find({ year: { $gte: 2010 } }).then(data => console.log(data))
